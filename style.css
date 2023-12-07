@@ -1,0 +1,108 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;    
+    align-items: center;
+    font-family: 'Hanken Grotesk', 'sans-serif';
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 10px 10px 9px lightblue;
+    width: 100%;
+    border-radius: 15px;
+    max-width: 600px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.blue {
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-radius: 15px;
+    width: 95%;
+}
+
+.circle {
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.circle > p{
+    position: absolute;
+    margin-top: 100px;
+}
+
+.circle > h1{
+    font-size: 60px;
+}
+
+.box {
+    display: inline-flex;
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    justify-content: space-around;
+    margin: 8px;
+    
+}
+
+.white {
+    color: white;
+}
+
+.white p{
+    color: hsl(223, 11%, 87%)
+}
+
+.con-btn {
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 80%;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.lt-red{
+    color: hsl(0, 100%, 67%);
+    background-color:hsla(0, 100%, 67%, 10%);
+}
+
+.lt-ylw{
+    color: hsl(39, 100%, 56%);
+    background-color: hsla(39, 100%, 56%, 10%);
+}
+
+.lt-grn{
+    color: hsl(166, 100%, 37%);
+    background-color: hsla(166, 100%, 37%, 10%);
+}
+
+.lt-prp{
+    color: hsl(234, 85%, 45%);
+    background-color: hsla(234, 85%, 45%, 10%);
+}
+
+h3 {
+    margin-left: 35px;
+    align-self:flex-start;
+}
